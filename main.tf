@@ -5,7 +5,7 @@ provider "google" {
 }
 
 resource "google_compute_instance" "vm_instance" {
-  name         = "terraform-instance"
+  name         = "hendra-instance"
   machine_type = "e2-micro"
 
   boot_disk {

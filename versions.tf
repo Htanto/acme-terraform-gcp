@@ -4,7 +4,7 @@ terraform {
     organization = "acme-hendra"
 
     workspaces {
-      name = "learn-terraform-cloud-gcp"
+      name = "acme-terraform-gcp"
     }
   }
 
